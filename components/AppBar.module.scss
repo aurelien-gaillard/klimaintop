@@ -1,0 +1,20 @@
+.appbar {
+  font-size: 1.5rem;
+  max-height: 120px;
+  display: flex;
+  align-items: center;
+  nav {
+    margin: auto;
+  }
+  ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+  }
+  li {
+    padding: 1rem;
+    &:hover {
+      border-bottom: 3px solid #ffca12;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+.service {
+  display: flex;
+  align-items: flex-start;
+  padding-bottom: 0.5rem;
+  p {
+    line-height: 1.5;
+  }
+
+  svg {
+    width: 2rem;
+    height: 2rem;
+  }
+}

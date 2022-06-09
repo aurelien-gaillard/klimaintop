@@ -1,0 +1,45 @@
+.hero {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: calc(100vh - 120px);
+  background-image: url('/homeAnimation-01.jpeg');
+  background-size: cover;
+  background-position: center;
+  font-size: 4rem;
+  text-align: center;
+  color: white;
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 6rem;
+  &-text {
+    margin: auto;
+    width: 90%;
+  }
+
+  .arrow {
+    position: absolute;
+    left: 50%;
+    margin-top: auto;
+    animation-duration: 2s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    opacity: 0.5;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+@keyframes slidein {
+  0% {
+    bottom: 0rem;
+  }
+  50% {
+    bottom: 1rem;
+  }
+  100% {
+    bottom: 0rem;
+  }
+}
